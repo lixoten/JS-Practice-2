@@ -1,0 +1,212 @@
+body {
+    background-color: oldlace;
+}
+
+#xxeditor {
+    position: relative;
+    max-width: 700px;
+
+}
+
+.CodeMirror {
+    resize: both;
+    font-family: monospace; /* Use a monospace font */
+    font-size: 16px; /* Adjust font size as needed */
+}
+#editor {
+    width: 400px;
+    /*resize: both;*/
+    /*width: 100%; !* Adjust as needed *!*/
+    /*height: 400px; !* Adjust as needed *!*/
+    /*border: none; !* Optional: Remove border *!*/
+    /*resize: none; !* Prevent resizing *!*/
+    font-family: monospace; /* Use a monospace font */
+    font-size: 34px; /* Adjust font size as needed */
+}
+
+
+#wwwwwweditor {
+    /*position: relative;*/
+    max-width: 700px;
+    width: 700px;
+    /*width: 100%; !* Adjust as needed *!*/
+    /*height: 400px; !* Adjust as needed *!*/
+    border: none;
+    /*resize: none; !* Prevent resizing *!*/
+    overflow: auto; /* Enable scrolling if needed */
+    font-family: monospace; /* Use a monospace font */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+#editor-container {
+    position: relative;
+    border: 4px solid pink;
+    display: flex;
+    gap:20px;
+}
+#audit2 {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    padding:20px;
+    border:5px solid red;
+    background-color: #fdf5e6;
+}
+
+
+
+
+#skip-problem-btn {
+    align-self: flex-end
+
+}
+
+#instructions-box {
+    display: flex;
+    margin: 0 20px;
+}
+
+#instructions-box div:first-of-type{
+    align-self: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#instructions {
+    margin-left: 10px;
+    /*font-size: larger;*/
+    font-weight: bold;
+    padding: 10px;
+}
+
+#reset-problem-btn {
+    align-self: flex-end
+
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*z-index: 1111;*/
+}
+
+.help-container {
+    margin: 20px 0 0 20px;
+    padding: 20px;
+    border: 3px solid red;
+    max-width: 700px;
+}
+
+
+
+#solution-box {
+    position: relative;
+    display: none;
+}
+#copySolutionBtn {
+    position: absolute;
+    right:0;
+}
+
+#solution-box.show-solution {
+    display: block;
+    background-color: chocolate;
+}
+
+
+#stats {
+    display: flex;
+    gap:20px;
+    margin-bottom: 20px;
+}
+
+
+#stats > div {
+    max-width: 150px;
+    width: 100%;
+    /*background-color: violet;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px;
+    background-color: #fdf5e6;
+    border: 1px solid  #000;
+    font-weight: bolder;
+}
+
+#stats > div {
+
+}
+
+#stats > div:first-of-type {
+    /*background-color: red;*/
+    align-self: center;
+    align-items: flex-start;
+    border:none;
+}
+
+
+#stats > div:last-child {
+    text-align: center;
+}
+
+#stats > div:last-child > div{
+    background-color: #fdf5e6;
+    font-size: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.solution > span:first-of-type {
+    text-align: right;
+    width: 100px;
+    display: inline-block;
+    background-color: cornsilk;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.solution > span:last-of-type {
+    /*background-color: #424211;*/
+}
+
+
+/*ssssssssssssssssssssssssss*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#hint-code > p {
+    border-bottom: 2px solid green;
+    margin: 0 0 10px;
+    padding-bottom: 5px;
+}
