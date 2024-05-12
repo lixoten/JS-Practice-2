@@ -1,3 +1,6 @@
+ok Added, userSolution and expected code solution.. return values, to be displayed on screen
+
+
 what else would you suggest should not be global?
 
 
