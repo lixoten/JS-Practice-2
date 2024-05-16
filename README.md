@@ -1,4 +1,4 @@
-# Coding Challenge Platform
+# JS Practice Coding Challenge Platform
 
 FYI... am new to JavaScript... am new to coding period. I started learning Feb 2024. Haft the time I am lost.
 This is a **personal project** after I completed a Frontend track(course) on Hyperskill. A way to practice.
@@ -7,7 +7,9 @@ Inspired by Hyperskill way of presenting problems for students to answer.
 ## Overview
 This project is a coding challenge platform designed to help users practice and improve their coding skills. It allows users to solve problems, check their solutions, and learn from hints or solutions provided.
 
-[js-practice.webm](https://github.com/lixoten/JS-Practice/assets/52259786/8106030b-5d89-474c-b205-939dc464841c)
+[js-practice.webm](https://github.com/lixoten/JS-Practice-2/assets/52259786/089c46e8-b717-4bff-a73c-bf0f56bf7afa)
+
+
 
 ## Features
 - **Problem Set Management**: Users can load different sets of problems to solve
