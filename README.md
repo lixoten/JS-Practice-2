@@ -7,18 +7,18 @@ Inspired by Hyperskill way of presenting problems for students to answer.
 ## Overview
 This project is a coding challenge platform designed to help users practice and improve their coding skills. It allows users to solve problems, check their solutions, and learn from hints or solutions provided.
 
-[js-practice.webm](https://github.com/lixoten/JS-Practice/assets/52259786/3d04a6f6-1711-40df-bf02-a44f1be3811c)
+[js-practice.webm](https://github.com/lixoten/JS-Practice/assets/52259786/8106030b-5d89-474c-b205-939dc464841c)
 
 ## Features
-- **Problem Set Management**: Users can load different sets of problems to solve 
---- **<span style="color:red;">Am still working on this</span>**.
+- **Problem Set Management**: Users can load different sets of problems to solve
+  --- **<span style="color:red;">Am still working on this</span>**.
 - **Code Editor**: An integrated code editor using CodeMirror for writing and editing code.
---- **<span style="color:red;">need to upgrage to codemirror 6</span>**.
+  --- **<span style="color:red;">need to upgrage to codemirror 6</span>**.
 - **Solution Checking**: Users can check their solutions against expected solutions on Submit/Check.
 - **Hint System**: Provides hints to help users solve problems, on user request.
 - **Score Reward/Penalty History** Display a history of applied points, be it + points awarded or - points for penalties.
 - **Solution Display**: Shows the correct solution on user request.
-- **Scoring System**: Keeps track of the user's score based on correct and incorrect answers and penalties if solution or hints are used. Or if a problem is skipped 
+- **Scoring System**: Keeps track of the user's score based on correct and incorrect answers and penalties if solution or hints are used. Or if a problem is skipped
 - **Copy to Clipboard**: Users can copy the solution to their clipboard for easy access.
 
 ### Problem Files
@@ -56,7 +56,7 @@ This project is a coding challenge platform designed to help users practice and 
 
 ### Installation
 
-npm install @codemirror/lint       
+npm install @codemirror/lint
 
 This project is a web-based application and does not require installation. Simply open the `index.html` file in your web browser.
 --- **<span style="color:red;">Not really ready for that</span>**.
